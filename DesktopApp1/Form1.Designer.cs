@@ -86,13 +86,10 @@ namespace DesktopApp1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(514, 257);
+            this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 27);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Open new window.";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 34;
             // 
             // txtStatus
             // 
@@ -116,7 +113,7 @@ namespace DesktopApp1
             // 
             // pictureBox25
             // 
-            this.pictureBox25.Image = global::DesktopApp1.Properties.Resources.vampire;
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
             this.pictureBox25.Location = new System.Drawing.Point(439, 344);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(92, 76);
@@ -128,7 +125,7 @@ namespace DesktopApp1
             // 
             // pictureBox24
             // 
-            this.pictureBox24.Image = global::DesktopApp1.Properties.Resources.canal_clipart_under_bridge_444498_7880165;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
             this.pictureBox24.Location = new System.Drawing.Point(202, 288);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(60, 49);
@@ -140,7 +137,7 @@ namespace DesktopApp1
             // 
             // pictureBox23
             // 
-            this.pictureBox23.Image = global::DesktopApp1.Properties.Resources.garland3;
+            this.pictureBox23.Image = global::DesktopApp1.Properties.Resources.garland;
             this.pictureBox23.Location = new System.Drawing.Point(550, 343);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(83, 76);

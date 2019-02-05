@@ -63,9 +63,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap canal_clipart_under_bridge_444498_7880165 {
+        internal static System.Drawing.Bitmap canal {
             get {
-                object obj = ResourceManager.GetObject("canal-clipart-under-bridge-444498-7880165", resourceCulture);
+                object obj = ResourceManager.GetObject("canal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap garland3 {
+        internal static System.Drawing.Bitmap garland {
             get {
-                object obj = ResourceManager.GetObject("garland3", resourceCulture);
+                object obj = ResourceManager.GetObject("garland", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

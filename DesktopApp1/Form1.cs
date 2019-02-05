@@ -8,9 +8,6 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Text;
-using System.Text.RegularExpressions;
-using Newtonsoft.Json.Linq;
-
 
 namespace DesktopApp1 {
     public partial class Form1 : Form {
@@ -73,24 +70,11 @@ namespace DesktopApp1 {
                 }
             }
 
-            //Thread ThreadingServer = new Thread(StartServer)
-            //{
-            //    IsBackground = true
-            //};
-            //ThreadingServer.Start();
-
-            Thread ThreadingServer2 = new Thread(StartudpListener)
-            //Thread ThreadingServer2 = new Thread(UDPListener.StartListener)
+            Thread ThreadingServer = new Thread(StartudpListener)
             {
                 IsBackground = true
             };
-            ThreadingServer2.Start();
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            Form2 secondForm = new Form2();
-            secondForm.Show();
+            ThreadingServer.Start();
         }
 
         private void THREAD_MOD(string teste)
@@ -170,54 +154,6 @@ namespace DesktopApp1 {
                 listener.Close();
             }
         }
-        //private void StartServer()
-        //{
-        //    string tag = null;
-        //    bool state = false;
-
-        //    Action<string> DelegateTeste_ModifyText = THREAD_MOD;
-        //    ServerListener.Start();
-        //    Invoke(DelegateTeste_ModifyText, "Server started.");
-        //    clientSocket = ServerListener.AcceptTcpClient();
-
-        //    while (true)
-        //    {
-        //        try
-        //        {
-        //            NetworkStream networkStream = clientSocket.GetStream();
-        //            byte[] bytesFrom = new byte[32];
-        //            networkStream.Read(bytesFrom, 0, 32);
-
-        //            string dataFromClient = Encoding.ASCII.GetString(bytesFrom);
-        //            dataFromClient = dataFromClient.TrimEnd('\n');
-
-        //            string[] words = dataFromClient.Split(':');
-        //            tag = words[0];
-        //            state = Convert.ToInt16(words[1]) != 0;
-
-        //            foreach (var pb in this.Controls
-        //            .OfType<PictureBox>()
-        //            .Where(x => (string)x.Tag == tag)
-        //            .ToList())
-        //            {
-        //                UpdateImage(pb, state);
-        //            }
-
-        //            Invoke(DelegateTeste_ModifyText, dataFromClient);
-
-        //            //Byte[] sendBytes = Encoding.ASCII.GetBytes("Data received: ");
-        //            //networkStream.Write(sendBytes, 0, sendBytes.Length);
-        //            networkStream.Flush();
-        //        }
-        //        catch
-        //        {
-        //            ServerListener.Stop();
-        //            ServerListener.Start();
-        //            clientSocket = ServerListener.AcceptTcpClient();
-        //            Invoke(DelegateTeste_ModifyText, "Server restarted.");
-        //        }
-        //    }
-        //}
 
         public class Globals {
             public static Dictionary<string, bool> pictureStatus = new Dictionary<string, bool>();
