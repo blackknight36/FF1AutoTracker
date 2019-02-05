@@ -11,18 +11,7 @@ using System.Text;
 
 namespace DesktopApp1 {
     public partial class Form1 : Form {
-        private int alpha = 255;
-        private const string IpString = "127.0.0.1";
-
-        //Declare and Initialize the IP Adress
-        static IPAddress ipAd = IPAddress.Parse(IpString);
-
-        //Declare and Initilize the Port Number;
-        private const int PortNumber = 8888;
-
-        /* Initializes the Listener */
-        TcpListener ServerListener = new TcpListener(ipAd, PortNumber);
-        TcpClient clientSocket = default(TcpClient);
+        private int alpha = 0;
 
         public Form1()
         {
@@ -127,21 +116,28 @@ namespace DesktopApp1 {
                     string dataFromClient = Encoding.ASCII.GetString(bytesFrom, 0, bytesFrom.Length);
                     dataFromClient = dataFromClient.TrimEnd('\n');
 
-                    string[] words = dataFromClient.Split(':');
-                    string tag = words[0];
-                    bool state = Convert.ToInt16(words[1]) != 0;
-
-                    foreach (var pb in this.Controls
-                    .OfType<PictureBox>()
-                    .Where(x => (string)x.Tag == tag)
-                    .ToList())
+                    try
                     {
-                        UpdateImage(pb, state);
-                    }
+                        string[] words = dataFromClient.Split(':');
+                        string tag = words[0];
+                        bool state = Convert.ToInt16(words[1]) != 0;
 
-                    Console.WriteLine($"Received broadcast from {groupEP} :");
-                    Console.WriteLine($" {dataFromClient}");
-                    Invoke(DelegateTeste_ModifyText, dataFromClient);
+                        foreach (var pb in this.Controls
+                        .OfType<PictureBox>()
+                        .Where(x => (string)x.Tag == tag)
+                        .ToList())
+                        {
+                            UpdateImage(pb, state);
+                        }
+
+                        Console.WriteLine($"Received broadcast from {groupEP} :");
+                        Console.WriteLine($" {dataFromClient}");
+                        Invoke(DelegateTeste_ModifyText, dataFromClient);
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Invalid input caught.");
+                    }
                 }
             }
             catch (SocketException e)
