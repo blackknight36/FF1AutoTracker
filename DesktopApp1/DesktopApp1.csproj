@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85BCFA0B-1423-4137-8BF9-3F0BC6D5A5AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DesktopApp1</RootNamespace>
+    <AssemblyName>DesktopApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lute1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\110259369-christmas-snowglobe-vector-sphere-ball-crystal-glass-empty-ball-transparent-background-realistic-ill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adamantite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bridge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chime.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal-ball-BR7X66.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earth-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earth-rod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FF1_Oxyale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FF1_Pirate_Ship_art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FF1_Ruby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFI_Nitro_Powder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herb3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herb4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herb5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kayak_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levistone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levistone_FFI_Art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MysticKey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pirate-ship-vector-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RatsTail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rodent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sapphire-class-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slab.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarpCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_Adamantite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_air-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_basil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_bridge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_chime.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_crystal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_crystal2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_crystal-ball-BR7X66.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_earth-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_earth-rod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_FF1_Oxyale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_FF1_Ruby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_FFI_Nitro_Powder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_fire-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_herb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_herb4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_herb5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_kayak_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_key2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_Levistone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_Levistone_FFI_Art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_lute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_MysticKey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_RatsTail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_Rodent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_sapphire-class-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_slab.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_sun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_tnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_WarpCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_water-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lute2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_Adamantite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_air-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_basil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_bridge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_chime.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_crystal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_crystal2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_crystal-ball-BR7X66.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_earth-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_earth-rod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_FF1_Oxyale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_FF1_Ruby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_FFI_Nitro_Powder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_fire-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_herb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_herb4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_herb5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_kayak_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_Levistone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_lute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_MysticKey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_RatsTail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_Rodent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_sapphire-class-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_slab.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_sun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_tnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_WarpCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_water-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garland3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canal-clipart-under-bridge-444498-7880165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vampire.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
