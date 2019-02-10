@@ -141,8 +141,8 @@ namespace DesktopApp1 {
                         Invoke(DelegateTeste_ModifyText, dataFromClient);
 
                         if (words[0] == "Shard") {
-                            string shard_text = $"Shards: {words[1]}/16";
-                            Invoke(UpdateShardLabel, shard_text);
+                            string shard_text = $"Shards: {words[1]}";
+                            Invoke(UpdateShardLabel, args: shard_text);
                         }
                     }
                     catch

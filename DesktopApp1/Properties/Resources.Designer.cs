@@ -73,6 +73,16 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Astos_map {
+            get {
+                object obj = ResourceManager.GetObject("Astos-map", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap basil {
             get {
                 object obj = ResourceManager.GetObject("basil", resourceCulture);
@@ -86,6 +96,16 @@ namespace DesktopApp1.Properties {
         internal static System.Drawing.Bitmap bell2 {
             get {
                 object obj = ResourceManager.GetObject("bell2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bikke {
+            get {
+                object obj = ResourceManager.GetObject("Bikke", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

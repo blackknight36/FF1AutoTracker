@@ -63,6 +63,8 @@ namespace DesktopApp1
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.shardLabel = new System.Windows.Forms.Label();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -94,6 +96,8 @@ namespace DesktopApp1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             this.SuspendLayout();
             // 
             // txtStatus
@@ -159,7 +163,7 @@ namespace DesktopApp1
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox23.Image = global::DesktopApp1.Properties.Resources.FFI_PSP_Garland_Map;
-            this.pictureBox23.Location = new System.Drawing.Point(537, 262);
+            this.pictureBox23.Location = new System.Drawing.Point(436, 262);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(60, 60);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -524,12 +528,38 @@ namespace DesktopApp1
             // 
             this.shardLabel.AutoSize = true;
             this.shardLabel.Font = new System.Drawing.Font("Inconsolata", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shardLabel.Location = new System.Drawing.Point(368, 453);
+            this.shardLabel.Location = new System.Drawing.Point(873, 9);
             this.shardLabel.Name = "shardLabel";
-            this.shardLabel.Size = new System.Drawing.Size(104, 17);
+            this.shardLabel.Size = new System.Drawing.Size(80, 17);
             this.shardLabel.TabIndex = 41;
             this.shardLabel.Tag = "Shard";
-            this.shardLabel.Text = "Shards: 0/16";
+            this.shardLabel.Text = "Shards: 0";
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox32.Image = global::DesktopApp1.Properties.Resources.Astos_map;
+            this.pictureBox32.Location = new System.Drawing.Point(532, 262);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(65, 58);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox32.TabIndex = 42;
+            this.pictureBox32.TabStop = false;
+            this.pictureBox32.Tag = "OBJID_ASTOS";
+            this.pictureBox32.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox33.Image = global::DesktopApp1.Properties.Resources.Bikke;
+            this.pictureBox33.Location = new System.Drawing.Point(436, 353);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(62, 61);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox33.TabIndex = 43;
+            this.pictureBox33.TabStop = false;
+            this.pictureBox33.Tag = "OBJID_BIKKE";
+            this.pictureBox33.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // Form1
             // 
@@ -539,6 +569,8 @@ namespace DesktopApp1
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(989, 505);
+            this.Controls.Add(this.pictureBox33);
+            this.Controls.Add(this.pictureBox32);
             this.Controls.Add(this.shardLabel);
             this.Controls.Add(this.pictureBox31);
             this.Controls.Add(this.pictureBox30);
@@ -611,6 +643,8 @@ namespace DesktopApp1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -651,6 +685,8 @@ namespace DesktopApp1
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.PictureBox pictureBox31;
         private System.Windows.Forms.Label shardLabel;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox pictureBox33;
     }
 }
 

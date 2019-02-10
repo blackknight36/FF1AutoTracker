@@ -498,5 +498,11 @@
   <ItemGroup>
     <None Include="Resources\FFI_Elf_Prince_PSP.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Astos-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bikke.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

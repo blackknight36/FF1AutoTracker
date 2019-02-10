@@ -11,10 +11,22 @@
 --And something else if it's vanilla.
 --And also rom.readbyte(6) should be 0x43
 
+-- Create socket object for message passing
+socket = require("socket.core");
+
+udp = assert(socket.udp());
+
 randomized = rom.readbyte(0x04) == 0x20 and true or false; 
 
 if randomized then
 	emu.message("Randomized ROM detected.");
+end
+
+if (rom.readbyte(0x7CDC0) == 0x08 and rom.readbyte(0x7CDC1) == 0xCE) then
+	shard_hunt_enabled = true
+	shard_limit = rom.readbyte(0x39516)
+else
+	shard_hunt_enabled = false
 end
 
 function math.sign(v)
@@ -51,24 +63,29 @@ function lshift(x, by)
 end
 
 function rshift(x, by)
-  return math.floor(x / 2 ^ by)
+  return math.round(x / 2 ^ by)
 end
 
 function draw_message(x, y, m)
     gui.text(x, y,  m, 'red', 'black');
 end
 
-function CheckGameEventFlag (objid)
-	v = rshift(map_objects[objid]['status'], 2);
-	return v;
+function CheckGameEventFlag(objid)
+	return rshift(memory.readbyte(map_objects[objid]['offset']), 2);
 end
 
 function send_udp_message(message)
 	assert(udp:sendto(message, "127.0.0.1", 11000));
 end
 
--- Create socket object for message passing
-socket = require("socket.core");
+function update_portal_status()
+	if inventory['Portal'] ~= 1 then
+		inventory['Portal'] = 1
+		emu.message("Portal status changed.");
+		send_udp_message("OBJID_PORTAL:1");
+	end
+end
+
 
 -- OBJVISIBLE is determined by a bitwise AND operation - see bank_0E.asm for details
 -- Citizens only appear after the pirates are dead
@@ -79,7 +96,7 @@ OBJID_GARLAND      = {offset = 0x6202, status = 0, limit = 1, t = 'alive', f = '
 OBJID_PRINCESS_1   = {offset = 0x6203, status = 0, limit = 1, t = 'kidnapped', f = 'rescued'},
 OBJID_PRINCESS_2   = {offset = 0x6212, status = 0, limit = 1, t = 'alive', f = 'dead'},
 OBJID_BIKKE        = {offset = 0x6204, status = 0, limit = 1, t = 'alive', f = 'dead'},
-OBJID_ELFPRINCE    = {offset = 0x6206, status = 1, limit = 3, t = 'awake', f = 'sleeping'},
+OBJID_ELFPRINCE    = {offset = 0x6206, status = 0, limit = 3, t = 'awake', f = 'sleeping'},
 OBJID_ASTOS        = {offset = 0x6207, status = 0, limit = 4, t = 'dead', f = 'alive'},
 OBJID_NERRICK      = {offset = 0x6208, status = 0, limit = 1, t = 'alive', f = 'dead'},
 OBJID_SMITH        = {offset = 0x6209, status = 0, limit = 1, t = 'alive', f = 'dead'},
@@ -99,9 +116,9 @@ OBJID_PIRATETERR_1 = {offset = 0x623F, status = 0, limit = 1, t = 'free', f = 'h
 OBJID_PIRATETERR_2 = {offset = 0x6240, status = 0, limit = 1, t = 'free', f = 'hiding'},  -- ; pirates... they don't become visible until after
 OBJID_PIRATETERR_3 = {offset = 0x6241, status = 0, limit = 1, t = 'free', f = 'hiding'},  -- ; you beat Bikke and claim the ship
 OBJID_BAT          = {offset = 0x6257, status = 0, limit = 1, t = 'alive', f = 'dead'},
-OBJID_SHIP         = {offset = 0x6000, status = 0, limit = 0, t = 'unavailable', f = 'available'},
+OBJID_SHIP         = {offset = 0x6000, status = 0, limit = 1, t = 'unavailable', f = 'available'},
 OBJID_BRIDGE       = {offset = 0x6008, status = 0, limit = 1, t = 'open', f = 'closed'},
-OBJID_CANAL        = {offset = 0x600C, status = 1, limit = 1, t = 'closed', f = 'open'},
+OBJID_CANAL        = {offset = 0x600C, status = 0, limit = 1, t = 'closed', f = 'open'},
 OBJID_CANOE        = {offset = 0x6012, status = 0, limit = 1, t = 'closed', f = 'open'},
 OBJID_AIRSHIP      = {offset = 0x6004, status = 0, limit = 1, t = 'closed', f = 'open'},
 OBJID_BLACKORB     = {offset = 0x62CA, status = 0, limit = 1, t = 'closed', f = 'open'},
@@ -332,8 +349,6 @@ inventory = {
 --end
 
 time_elapsed = 0
-udp = assert(socket.udp())
-shard_limit = 16
 
 -- Enter main loop
 while true do
@@ -368,8 +383,9 @@ while true do
 			if k == 'OBJID_CANAL' or k == 'OBJID_UNNE' then
 				cur_status = 1 - BitAND(memory.readbyte(v['offset']), 0x01);
 			elseif k == 'OBJID_ELFPRINCE' then
-				-- This essentially right shifts the flag value by two
-				cur_status = math.round(memory.readbyte(v['offset'])/2^2);
+				cur_status = CheckGameEventFlag(k);
+			elseif k == 'OBJID_BIKKE' then
+				cur_status = 1 - CheckGameEventFlag(k);
 			else
 				cur_status = BitAND(memory.readbyte(v['offset']), 0x01);
 			end
@@ -378,26 +394,21 @@ while true do
                 v['status'] = cur_status;
                 m = k .. ":" .. cur_status .. "\n";
 
-                -- local s = socket.tcp();
-                -- s:connect('localhost', 8888);
-                -- s:settimeout(0);
-                -- s:send(m);
-                -- s:close();
-
                 -- send message to udp port
-				send_udp_message(m); 
+		send_udp_message(m); 
                 -- Alert player
                 emu.message(k .. " status changed.");
             end
             table.insert(msgtable['map_objects'], k .. ":" .. cur_status .. "\n");
         end
 
-		-- Check if all four orbs are lit.  When all are lit the path to Chaos is open.
-		if (inventory['EarthOrb'] == 1 and inventory['FireOrb'] == 1 and inventory['WaterOrb'] == 1 and inventory['AirOrb'] == 1) then
-			if inventory['Portal'] ~= 1 then
-				inventory['Portal'] = 1
-				emu.message("Portal status changed.");
-				assert(udp:sendto("OBJID_PORTAL:1", "127.0.0.1", 11000));
+		-- Portal opens when the player collects all shards
+		if (shard_hunt_enabled == true and inventory['Shard'] == shard_limit) then
+			update_portal_status();
+		else
+			-- Check if all four orbs are lit.  When all are lit the path to Chaos is open.
+			if (inventory['EarthOrb'] == 1 and inventory['FireOrb'] == 1 and inventory['WaterOrb'] == 1 and inventory['AirOrb'] == 1) then
+				update_portal_status();
 			end
 		end
 

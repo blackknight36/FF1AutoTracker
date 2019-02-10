@@ -124,6 +124,9 @@
   <data name="light_water_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_water-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Astos-map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astos-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bridge_PNG10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bridge_PNG10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,9 +184,6 @@
   <data name="FFI_PSP_Garland_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FFI_PSP_Garland_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fairy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="blue_gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue-gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,20 +196,20 @@
   <data name="light_MysticKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_MysticKey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\time.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fairy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Airship" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Airship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_fire_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_fire-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="light_WarpCube" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_WarpCube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="light_tnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light_tnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_air_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_air-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -225,6 +225,9 @@
   </data>
   <data name="crystal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crystal3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_WarpCube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light_WarpCube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,13 +247,16 @@
   <data name="light_FF1_Ruby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_FF1_Ruby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="light_tnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_tnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FFI_Elf_Prince_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FFI_Elf_Prince_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Airship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Airship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_earth_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_earth-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FFI_Elf_Prince_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FFI_Elf_Prince_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bikke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bikke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
