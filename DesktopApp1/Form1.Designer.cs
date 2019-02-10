@@ -153,7 +153,7 @@ namespace DesktopApp1
             // pictureBox24
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox24.Image = global::DesktopApp1.Properties.Resources.drawbridge;
+            this.pictureBox24.Image = global::FinalFantasyTracker.Properties.Resources.drawbridge;
             this.pictureBox24.Location = new System.Drawing.Point(28, 144);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(60, 60);
@@ -166,7 +166,7 @@ namespace DesktopApp1
             // pictureBox23
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox23.Image = global::DesktopApp1.Properties.Resources.garland;
+            this.pictureBox23.Image = global::FinalFantasyTracker.Properties.Resources.garland;
             this.pictureBox23.Location = new System.Drawing.Point(536, 261);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(60, 60);
@@ -179,7 +179,7 @@ namespace DesktopApp1
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::DesktopApp1.Properties.Resources.air_orb;
+            this.pictureBox2.Image = global::FinalFantasyTracker.Properties.Resources.air_orb;
             this.pictureBox2.Location = new System.Drawing.Point(789, 423);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(60, 60);
@@ -192,7 +192,7 @@ namespace DesktopApp1
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox22.Image = global::DesktopApp1.Properties.Resources.fire_orb;
+            this.pictureBox22.Image = global::FinalFantasyTracker.Properties.Resources.fire_orb;
             this.pictureBox22.Location = new System.Drawing.Point(621, 423);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(60, 60);
@@ -205,7 +205,7 @@ namespace DesktopApp1
             // pictureBox21
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox21.Image = global::DesktopApp1.Properties.Resources.water_orb;
+            this.pictureBox21.Image = global::FinalFantasyTracker.Properties.Resources.water_orb;
             this.pictureBox21.Location = new System.Drawing.Point(701, 423);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(60, 60);
@@ -218,7 +218,7 @@ namespace DesktopApp1
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox20.Image = global::DesktopApp1.Properties.Resources.earth_orb;
+            this.pictureBox20.Image = global::FinalFantasyTracker.Properties.Resources.earth_orb;
             this.pictureBox20.Location = new System.Drawing.Point(536, 423);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(60, 60);
@@ -231,7 +231,7 @@ namespace DesktopApp1
             // pictureBox19
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox19.Image = global::DesktopApp1.Properties.Resources.slab;
+            this.pictureBox19.Image = global::FinalFantasyTracker.Properties.Resources.slab;
             this.pictureBox19.Location = new System.Drawing.Point(202, 79);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(60, 60);
@@ -244,7 +244,7 @@ namespace DesktopApp1
             // pictureBox18
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox18.Image = global::DesktopApp1.Properties.Resources.WarpCube;
+            this.pictureBox18.Image = global::FinalFantasyTracker.Properties.Resources.WarpCube;
             this.pictureBox18.Location = new System.Drawing.Point(202, 12);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(60, 60);
@@ -257,7 +257,7 @@ namespace DesktopApp1
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox17.Image = global::DesktopApp1.Properties.Resources.ship;
+            this.pictureBox17.Image = global::FinalFantasyTracker.Properties.Resources.ship;
             this.pictureBox17.Location = new System.Drawing.Point(202, 344);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(60, 60);
@@ -270,7 +270,7 @@ namespace DesktopApp1
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.Image = global::DesktopApp1.Properties.Resources.Adamantite;
+            this.pictureBox16.Image = global::FinalFantasyTracker.Properties.Resources.Adamantite;
             this.pictureBox16.Location = new System.Drawing.Point(202, 212);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(60, 60);
@@ -283,7 +283,7 @@ namespace DesktopApp1
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.Image = global::DesktopApp1.Properties.Resources.oxyale;
+            this.pictureBox15.Image = global::FinalFantasyTracker.Properties.Resources.oxyale;
             this.pictureBox15.Location = new System.Drawing.Point(112, 410);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(60, 60);
@@ -296,7 +296,7 @@ namespace DesktopApp1
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::DesktopApp1.Properties.Resources.bottle;
+            this.pictureBox3.Image = global::FinalFantasyTracker.Properties.Resources.bottle;
             this.pictureBox3.Location = new System.Drawing.Point(112, 344);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 60);
@@ -309,7 +309,7 @@ namespace DesktopApp1
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.Image = global::DesktopApp1.Properties.Resources.Levistone;
+            this.pictureBox14.Image = global::FinalFantasyTracker.Properties.Resources.Levistone;
             this.pictureBox14.Location = new System.Drawing.Point(110, 278);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(60, 60);
@@ -322,7 +322,7 @@ namespace DesktopApp1
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox13.Image = global::DesktopApp1.Properties.Resources.kayak;
+            this.pictureBox13.Image = global::FinalFantasyTracker.Properties.Resources.kayak;
             this.pictureBox13.Location = new System.Drawing.Point(110, 212);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(60, 60);
@@ -335,7 +335,7 @@ namespace DesktopApp1
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.Image = global::DesktopApp1.Properties.Resources.rod;
+            this.pictureBox12.Image = global::FinalFantasyTracker.Properties.Resources.rod;
             this.pictureBox12.Location = new System.Drawing.Point(110, 146);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(60, 60);
@@ -348,7 +348,7 @@ namespace DesktopApp1
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox11.Image = global::DesktopApp1.Properties.Resources.ruby;
+            this.pictureBox11.Image = global::FinalFantasyTracker.Properties.Resources.ruby;
             this.pictureBox11.Location = new System.Drawing.Point(110, 79);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(60, 60);
@@ -361,7 +361,7 @@ namespace DesktopApp1
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Image = global::DesktopApp1.Properties.Resources.FFI_Nitro_Powder;
+            this.pictureBox10.Image = global::FinalFantasyTracker.Properties.Resources.FFI_Nitro_Powder;
             this.pictureBox10.Location = new System.Drawing.Point(112, 12);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(60, 60);
@@ -374,7 +374,7 @@ namespace DesktopApp1
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = global::DesktopApp1.Properties.Resources.MysticKey;
+            this.pictureBox9.Image = global::FinalFantasyTracker.Properties.Resources.MysticKey;
             this.pictureBox9.Location = new System.Drawing.Point(28, 410);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(60, 60);
@@ -400,7 +400,7 @@ namespace DesktopApp1
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::DesktopApp1.Properties.Resources.crystal2;
+            this.pictureBox7.Image = global::FinalFantasyTracker.Properties.Resources.crystal2;
             this.pictureBox7.Location = new System.Drawing.Point(28, 278);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(60, 60);
@@ -453,7 +453,7 @@ namespace DesktopApp1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::DesktopApp1.Properties.Resources.chime;
+            this.pictureBox1.Image = global::FinalFantasyTracker.Properties.Resources.chime;
             this.pictureBox1.Location = new System.Drawing.Point(202, 146);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(60, 60);

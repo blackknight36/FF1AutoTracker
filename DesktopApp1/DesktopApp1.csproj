@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{85BCFA0B-1423-4137-8BF9-3F0BC6D5A5AC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DesktopApp1</RootNamespace>
-    <AssemblyName>DesktopApp1</AssemblyName>
+    <RootNamespace>FinalFantasyTracker</RootNamespace>
+    <AssemblyName>FinalFantasyTracker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -30,6 +30,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ff_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -590,6 +596,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ff_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
