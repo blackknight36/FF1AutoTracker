@@ -71,6 +71,11 @@ namespace DesktopApp1 {
             txtStatus.Text += Environment.NewLine + teste;
         }
 
+        private void THREAD_MOD2(string shard_text)
+        {
+            shardLabel.Text = shard_text;
+            Console.Write($"Thread received: {shard_text}");
+        }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -106,6 +111,7 @@ namespace DesktopApp1 {
             UdpClient listener = new UdpClient(listenPort);
             IPEndPoint groupEP = new IPEndPoint(IPAddress.Any, listenPort);
             Action<string> DelegateTeste_ModifyText = THREAD_MOD;
+            Action<string> UpdateShardLabel = THREAD_MOD2;
 
             try
             {
@@ -133,6 +139,11 @@ namespace DesktopApp1 {
                         Console.WriteLine($"Received broadcast from {groupEP} :");
                         Console.WriteLine($" {dataFromClient}");
                         Invoke(DelegateTeste_ModifyText, dataFromClient);
+
+                        if (words[0] == "Shard") {
+                            string shard_text = $"Shards: {words[1]}/16";
+                            Invoke(UpdateShardLabel, shard_text);
+                        }
                     }
                     catch
                     {

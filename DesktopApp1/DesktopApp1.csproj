@@ -426,5 +426,77 @@
   <ItemGroup>
     <None Include="Resources\garland1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Airship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-gradient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FairyBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fairy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rodent1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFI_Sarah_PSP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_orb1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basil1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lute21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bridge2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bridge_PNG10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crown2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slab2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vampire-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFI_PSP_Garland_Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFI_Elf_Prince_PSP.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

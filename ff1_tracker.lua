@@ -11,6 +11,21 @@
 --And something else if it's vanilla.
 --And also rom.readbyte(6) should be 0x43
 
+randomized = rom.readbyte(0x04) == 0x20 and true or false; 
+
+if randomized then
+	emu.message("Randomized ROM detected.");
+end
+
+function math.sign(v)
+	return (v >= 0 and 1) or -1
+end
+
+function math.round(v, bracket)
+	bracket = bracket or 1
+	return math.floor(v/bracket + math.sign(v) * 0.5) * bracket
+end
+
 function BitAND(a,b) --Bitwise and
     local p,c = 1,0
     while a>0 and b>0 do
@@ -21,8 +36,35 @@ function BitAND(a,b) --Bitwise and
     return c
 end
 
+function BitOR(a,b)--Bitwise or
+    local p,c=1,0
+    while a+b>0 do
+        local ra,rb=a%2,b%2
+        if ra+rb>0 then c=c+p end
+        a,b,p=(a-ra)/2,(b-rb)/2,p*2
+    end
+    return c
+end
+
+function lshift(x, by)
+  return x * 2 ^ by
+end
+
+function rshift(x, by)
+  return math.floor(x / 2 ^ by)
+end
+
 function draw_message(x, y, m)
     gui.text(x, y,  m, 'red', 'black');
+end
+
+function CheckGameEventFlag (objid)
+	v = rshift(map_objects[objid]['status'], 2);
+	return v;
+end
+
+function send_udp_message(message)
+	assert(udp:sendto(message, "127.0.0.1", 11000));
 end
 
 -- Create socket object for message passing
@@ -37,7 +79,7 @@ OBJID_GARLAND      = {offset = 0x6202, status = 0, limit = 1, t = 'alive', f = '
 OBJID_PRINCESS_1   = {offset = 0x6203, status = 0, limit = 1, t = 'kidnapped', f = 'rescued'},
 OBJID_PRINCESS_2   = {offset = 0x6212, status = 0, limit = 1, t = 'alive', f = 'dead'},
 OBJID_BIKKE        = {offset = 0x6204, status = 0, limit = 1, t = 'alive', f = 'dead'},
-OBJID_ELFPRINCE    = {offset = 0x6206, status = 0, limit = 3, t = 'awake', f = 'sleeping'},
+OBJID_ELFPRINCE    = {offset = 0x6206, status = 1, limit = 3, t = 'awake', f = 'sleeping'},
 OBJID_ASTOS        = {offset = 0x6207, status = 0, limit = 4, t = 'dead', f = 'alive'},
 OBJID_NERRICK      = {offset = 0x6208, status = 0, limit = 1, t = 'alive', f = 'dead'},
 OBJID_SMITH        = {offset = 0x6209, status = 0, limit = 1, t = 'alive', f = 'dead'},
@@ -59,10 +101,10 @@ OBJID_PIRATETERR_3 = {offset = 0x6241, status = 0, limit = 1, t = 'free', f = 'h
 OBJID_BAT          = {offset = 0x6257, status = 0, limit = 1, t = 'alive', f = 'dead'},
 OBJID_SHIP         = {offset = 0x6000, status = 0, limit = 0, t = 'unavailable', f = 'available'},
 OBJID_BRIDGE       = {offset = 0x6008, status = 0, limit = 1, t = 'open', f = 'closed'},
-OBJID_CANAL        = {offset = 0x600c, status = 0, limit = 1, t = 'closed', f = 'open'},
+OBJID_CANAL        = {offset = 0x600C, status = 1, limit = 1, t = 'closed', f = 'open'},
 OBJID_CANOE        = {offset = 0x6012, status = 0, limit = 1, t = 'closed', f = 'open'},
 OBJID_AIRSHIP      = {offset = 0x6004, status = 0, limit = 1, t = 'closed', f = 'open'},
-OBJID_BLACKORB     = {offset = 0x62CA, status = 1, limit = 1, t = 'closed', f = 'open'},
+OBJID_BLACKORB     = {offset = 0x62CA, status = 0, limit = 1, t = 'closed', f = 'open'},
 }
 
 multitext = iup.text{
@@ -273,7 +315,10 @@ Items2 = {
     Canoe = 242,
 }
 
-inventory = {}
+inventory = {
+	Portal = 0,
+	Shard = 0,
+}
 
 --0x355C = Starting gold?
 
@@ -288,6 +333,7 @@ inventory = {}
 
 time_elapsed = 0
 udp = assert(socket.udp())
+shard_limit = 16
 
 -- Enter main loop
 while true do
@@ -305,10 +351,10 @@ while true do
 
         for k, v in pairs(KeyItems) do
             status = memory.readbyte(0x6020 + v) ;
-            if status ~= inventory[k] then
+            if inventory[k] ~= status then
                 inventory[k] = status;
-                m = k .. ":" .. status .. "\n";
-                assert(udp:sendto(m, "127.0.0.1", 11000));
+                m = k .. ":" .. status;
+                send_udp_message(m); 
                 -- send status message to player
                 emu.message(k .. " status changed.");
             end
@@ -316,14 +362,18 @@ while true do
         end
 
         for k, v in pairs(map_objects) do
-			-- Canal is 0 or 1.  When set to 1 there is a land mass blocking the path.
-			-- Dr. Unne returns 1 when the slab is translated.  0 (hidden) means the slab has been translated.
+			-- Canal status is located at 0x620C.  When this memory address is set to 0 the canal appears.
+			-- Dr. Unne uses the SetGameEventFlag function to check if you need to learn Leifenish.  
+			-- The flag value is stored in RAM at 0x620B.  A return value of 0 means he has already taught you.
 			if k == 'OBJID_CANAL' or k == 'OBJID_UNNE' then
-				cur_status = 1 - memory.readbyte(v['offset']);
+				cur_status = 1 - BitAND(memory.readbyte(v['offset']), 0x01);
+			elseif k == 'OBJID_ELFPRINCE' then
+				-- This essentially right shifts the flag value by two
+				cur_status = math.round(memory.readbyte(v['offset'])/2^2);
 			else
-				cur_status = BitAND(memory.readbyte(v['offset']), 1);
+				cur_status = BitAND(memory.readbyte(v['offset']), 0x01);
 			end
-  
+
             if cur_status ~= v['status'] then
                 v['status'] = cur_status;
                 m = k .. ":" .. cur_status .. "\n";
@@ -335,25 +385,24 @@ while true do
                 -- s:close();
 
                 -- send message to udp port
-                assert(udp:sendto(m, "127.0.0.1", 11000));
+				send_udp_message(m); 
                 -- Alert player
                 emu.message(k .. " status changed.");
             end
-
-            -- emu.print("k: " .. k .. "offset: " .. v['offset']);
             table.insert(msgtable['map_objects'], k .. ":" .. cur_status .. "\n");
         end
 
 		-- Check if all four orbs are lit.  When all are lit the path to Chaos is open.
 		if (inventory['EarthOrb'] == 1 and inventory['FireOrb'] == 1 and inventory['WaterOrb'] == 1 and inventory['AirOrb'] == 1) then
-			portal_open = 1
-		else
-			portal_open = 0
+			if inventory['Portal'] ~= 1 then
+				inventory['Portal'] = 1
+				emu.message("Portal status changed.");
+				assert(udp:sendto("OBJID_PORTAL:1", "127.0.0.1", 11000));
+			end
 		end
-		assert(udp:sendto("OBJID_PORTAL:" .. portal_open, "127.0.0.1", 11000));
 
         -- Update the inventory window contents
-        multitext.value = table.concat(msgtable['key_items'], "") .. "\n" .. table.concat(msgtable['map_objects'], "") ;
+        -- multitext.value = table.concat(msgtable['key_items'], "") .. "\n" .. table.concat(msgtable['map_objects'], "") ;
     end
 
     emu.frameadvance();
