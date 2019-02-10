@@ -504,5 +504,26 @@
   <ItemGroup>
     <None Include="Resources\Bikke.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matoya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nerrick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sarda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sarda1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

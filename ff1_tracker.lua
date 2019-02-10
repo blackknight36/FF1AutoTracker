@@ -378,11 +378,11 @@ while true do
 
         for k, v in pairs(map_objects) do
 			-- Canal status is located at 0x620C.  When this memory address is set to 0 the canal appears.
+			if k == 'OBJID_CANAL' then
+				cur_status = 1 - BitAND(memory.readbyte(v['offset']), 0x01);
 			-- Dr. Unne uses the SetGameEventFlag function to check if you need to learn Leifenish.  
 			-- The flag value is stored in RAM at 0x620B.  A return value of 0 means he has already taught you.
-			if k == 'OBJID_CANAL' or k == 'OBJID_UNNE' then
-				cur_status = 1 - BitAND(memory.readbyte(v['offset']), 0x01);
-			elseif k == 'OBJID_ELFPRINCE' then
+			elseif k == 'OBJID_ELFPRINCE' or k == 'OBJID_UNNE' or k == 'OBJID_MATOYA' then
 				cur_status = CheckGameEventFlag(k);
 			elseif k == 'OBJID_BIKKE' then
 				cur_status = 1 - CheckGameEventFlag(k);
@@ -395,7 +395,7 @@ while true do
                 m = k .. ":" .. cur_status .. "\n";
 
                 -- send message to udp port
-		send_udp_message(m); 
+				send_udp_message(m); 
                 -- Alert player
                 emu.message(k .. " status changed.");
             end

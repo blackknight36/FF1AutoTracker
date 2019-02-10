@@ -65,6 +65,8 @@ namespace DesktopApp1
             this.shardLabel = new System.Windows.Forms.Label();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -98,6 +100,8 @@ namespace DesktopApp1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             this.SuspendLayout();
             // 
             // txtStatus
@@ -107,7 +111,7 @@ namespace DesktopApp1
             this.txtStatus.Multiline = true;
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtStatus.Size = new System.Drawing.Size(439, 206);
+            this.txtStatus.Size = new System.Drawing.Size(439, 218);
             this.txtStatus.TabIndex = 6;
             // 
             // label1
@@ -124,7 +128,7 @@ namespace DesktopApp1
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox26.Image = global::DesktopApp1.Properties.Resources.Airship;
-            this.pictureBox26.Location = new System.Drawing.Point(537, 433);
+            this.pictureBox26.Location = new System.Drawing.Point(198, 410);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(60, 60);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,7 +141,7 @@ namespace DesktopApp1
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(639, 262);
+            this.pictureBox25.Location = new System.Drawing.Point(789, 262);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(60, 60);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -163,7 +167,7 @@ namespace DesktopApp1
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox23.Image = global::DesktopApp1.Properties.Resources.FFI_PSP_Garland_Map;
-            this.pictureBox23.Location = new System.Drawing.Point(436, 262);
+            this.pictureBox23.Location = new System.Drawing.Point(536, 261);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(60, 60);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -176,7 +180,7 @@ namespace DesktopApp1
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::DesktopApp1.Properties.Resources.light_air_orb;
-            this.pictureBox2.Location = new System.Drawing.Point(860, 344);
+            this.pictureBox2.Location = new System.Drawing.Point(789, 423);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(60, 60);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -189,7 +193,7 @@ namespace DesktopApp1
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox22.Image = global::DesktopApp1.Properties.Resources.light_fire_orb;
-            this.pictureBox22.Location = new System.Drawing.Point(860, 257);
+            this.pictureBox22.Location = new System.Drawing.Point(621, 423);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(60, 60);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -202,7 +206,7 @@ namespace DesktopApp1
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox21.Image = global::DesktopApp1.Properties.Resources.light_water_orb;
-            this.pictureBox21.Location = new System.Drawing.Point(746, 343);
+            this.pictureBox21.Location = new System.Drawing.Point(701, 423);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(60, 60);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -215,7 +219,7 @@ namespace DesktopApp1
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.Image = global::DesktopApp1.Properties.Resources.light_earth_orb;
-            this.pictureBox20.Location = new System.Drawing.Point(746, 257);
+            this.pictureBox20.Location = new System.Drawing.Point(536, 423);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(60, 60);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -254,7 +258,7 @@ namespace DesktopApp1
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox17.Image = global::DesktopApp1.Properties.Resources.light_ship;
-            this.pictureBox17.Location = new System.Drawing.Point(645, 433);
+            this.pictureBox17.Location = new System.Drawing.Point(202, 344);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(60, 60);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -463,7 +467,7 @@ namespace DesktopApp1
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox27.Image = global::DesktopApp1.Properties.Resources.fairy;
-            this.pictureBox27.Location = new System.Drawing.Point(639, 354);
+            this.pictureBox27.Location = new System.Drawing.Point(866, 344);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(60, 60);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -476,7 +480,7 @@ namespace DesktopApp1
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox28.Image = global::DesktopApp1.Properties.Resources.unne;
-            this.pictureBox28.Location = new System.Drawing.Point(537, 355);
+            this.pictureBox28.Location = new System.Drawing.Point(789, 344);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(60, 60);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -502,7 +506,7 @@ namespace DesktopApp1
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox30.Image = global::DesktopApp1.Properties.Resources.time;
-            this.pictureBox30.Location = new System.Drawing.Point(743, 433);
+            this.pictureBox30.Location = new System.Drawing.Point(866, 423);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(60, 60);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -515,7 +519,7 @@ namespace DesktopApp1
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox31.Image = global::DesktopApp1.Properties.Resources.FFI_Elf_Prince_PSP;
-            this.pictureBox31.Location = new System.Drawing.Point(860, 433);
+            this.pictureBox31.Location = new System.Drawing.Point(701, 344);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(60, 60);
             this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -538,8 +542,8 @@ namespace DesktopApp1
             // pictureBox32
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox32.Image = global::DesktopApp1.Properties.Resources.Astos_map;
-            this.pictureBox32.Location = new System.Drawing.Point(532, 262);
+            this.pictureBox32.Image = global::DesktopApp1.Properties.Resources.Astos;
+            this.pictureBox32.Location = new System.Drawing.Point(701, 263);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(65, 58);
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -552,7 +556,7 @@ namespace DesktopApp1
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox33.Image = global::DesktopApp1.Properties.Resources.Bikke;
-            this.pictureBox33.Location = new System.Drawing.Point(436, 353);
+            this.pictureBox33.Location = new System.Drawing.Point(619, 262);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(62, 61);
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -560,6 +564,31 @@ namespace DesktopApp1
             this.pictureBox33.TabStop = false;
             this.pictureBox33.Tag = "OBJID_BIKKE";
             this.pictureBox33.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox34.Image = global::DesktopApp1.Properties.Resources.Matoya;
+            this.pictureBox34.Location = new System.Drawing.Point(621, 344);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox34.TabIndex = 44;
+            this.pictureBox34.TabStop = false;
+            this.pictureBox34.Tag = "OBJID_MATOYA";
+            this.pictureBox34.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox36
+            // 
+            this.pictureBox36.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox36.Image = global::DesktopApp1.Properties.Resources.giant;
+            this.pictureBox36.Location = new System.Drawing.Point(866, 261);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox36.TabIndex = 46;
+            this.pictureBox36.TabStop = false;
+            this.pictureBox36.Tag = "OBJID_TITAN";
+            this.pictureBox36.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // Form1
             // 
@@ -569,6 +598,8 @@ namespace DesktopApp1
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(989, 505);
+            this.Controls.Add(this.pictureBox36);
+            this.Controls.Add(this.pictureBox34);
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.pictureBox32);
             this.Controls.Add(this.shardLabel);
@@ -645,6 +676,8 @@ namespace DesktopApp1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -687,6 +720,8 @@ namespace DesktopApp1
         private System.Windows.Forms.Label shardLabel;
         private System.Windows.Forms.PictureBox pictureBox32;
         private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.PictureBox pictureBox34;
+        private System.Windows.Forms.PictureBox pictureBox36;
     }
 }
 

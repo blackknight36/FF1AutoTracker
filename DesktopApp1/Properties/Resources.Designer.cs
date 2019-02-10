@@ -73,9 +73,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Astos_map {
+        internal static System.Drawing.Bitmap Astos {
             get {
-                object obj = ResourceManager.GetObject("Astos-map", resourceCulture);
+                object obj = ResourceManager.GetObject("Astos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +196,16 @@ namespace DesktopApp1.Properties {
         internal static System.Drawing.Bitmap FFI_Sarah_PSP {
             get {
                 object obj = ResourceManager.GetObject("FFI_Sarah_PSP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giant {
+            get {
+                object obj = ResourceManager.GetObject("giant", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -483,9 +493,49 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Matoya {
+            get {
+                object obj = ResourceManager.GetObject("Matoya", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nerrick {
+            get {
+                object obj = ResourceManager.GetObject("nerrick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rodent {
             get {
                 object obj = ResourceManager.GetObject("Rodent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sarda {
+            get {
+                object obj = ResourceManager.GetObject("sarda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sarda1 {
+            get {
+                object obj = ResourceManager.GetObject("sarda1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +556,26 @@ namespace DesktopApp1.Properties {
         internal static System.Drawing.Bitmap time {
             get {
                 object obj = ResourceManager.GetObject("time", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap titan {
+            get {
+                object obj = ResourceManager.GetObject("titan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap titan1 {
+            get {
+                object obj = ResourceManager.GetObject("titan1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

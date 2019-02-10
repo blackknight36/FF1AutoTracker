@@ -124,9 +124,6 @@
   <data name="light_water_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_water-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Astos-map" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Astos-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bridge_PNG10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bridge_PNG10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,8 +133,11 @@
   <data name="light_RatsTail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_RatsTail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="light_sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_sun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bikke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bikke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light_bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lute2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lute21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,6 +151,9 @@
   <data name="light_bridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_bridge.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="titan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="light_crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,11 +166,20 @@
   <data name="slab2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\slab2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Matoya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matoya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="light_slab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_slab.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="crown2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crown2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Astos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astos-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_Adamantite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light_Adamantite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_basil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_basil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,11 +190,14 @@
   <data name="light_Rodent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_Rodent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="light_Adamantite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_Adamantite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="giant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FFI_PSP_Garland_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FFI_PSP_Garland_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light_sun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blue_gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue-gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,14 +244,17 @@
   <data name="light_WarpCube" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_WarpCube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="light_bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nerrick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nerrick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_chime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_chime.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_FFI_Nitro_Powder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_FFI_Nitro_Powder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sarda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sarda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FFI_Sarah_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FFI_Sarah_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,13 +268,16 @@
   <data name="FFI_Elf_Prince_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FFI_Elf_Prince_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="titan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Airship" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Airship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_earth_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_earth-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bikke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bikke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sarda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sarda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
