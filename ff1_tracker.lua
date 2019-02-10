@@ -365,8 +365,13 @@ while true do
         msgtable = {key_items = {}, map_objects={}}
 
         for k, v in pairs(KeyItems) do
-            status = memory.readbyte(0x6020 + v) ;
-            if inventory[k] ~= status then
+			if k == 'Shard' and shard_hunt_enabled == false then
+				status = 0;
+			else
+				status = memory.readbyte(0x6020 + v) ;
+			end
+ 
+			if inventory[k] ~= status then
                 inventory[k] = status;
                 m = k .. ":" .. status;
                 send_udp_message(m); 

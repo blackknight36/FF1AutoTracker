@@ -118,166 +118,178 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="light_lute" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_lute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_water_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_water-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bridge_PNG10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bridge_PNG10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bell2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bell2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_RatsTail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_RatsTail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bikke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bikke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lute2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lute21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_Levistone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_Levistone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bridge2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bridge2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_bridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_bridge.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="titan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\titan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_FF1_Oxyale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_FF1_Oxyale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rodent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rodent1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="slab2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\slab2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Matoya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Matoya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_slab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_slab.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="crown2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\crown2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Astos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Astos-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_Adamantite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_Adamantite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_basil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_basil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_herb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_herb2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_Rodent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_Rodent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="giant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\giant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FFI_PSP_Garland_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FFI_PSP_Garland_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_sun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blue_gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue-gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_kayak_grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_kayak_grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="unne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_MysticKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_MysticKey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fairy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\time.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_fire_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_fire-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_tnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_tnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_air_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_air-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vampire" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vampire-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_earth_rod" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_earth-rod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_crystal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_crystal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="crystal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\crystal3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_WarpCube" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_WarpCube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nerrick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nerrick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_chime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_chime.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_FFI_Nitro_Powder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_FFI_Nitro_Powder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sarda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sarda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FFI_Sarah_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FFI_Sarah_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="basil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\basil1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light_FF1_Ruby" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_FF1_Ruby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FFI_Elf_Prince_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FFI_Elf_Prince_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="titan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\titan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Adamantite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adamantite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Airship" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Airship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="light_earth_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\light_earth-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="air_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\air-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sarda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sarda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Arylon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arylon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Astos_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astos-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bahamut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bahamut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bikke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bikke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chaos_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chaos-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chime2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crystal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crystal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crystal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crystal2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drawbridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drawbridge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earth_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earth-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fairy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FFI_Elf_Prince_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FFI_Elf_Prince_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FFI_Nitro_Powder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FFI_Nitro_Powder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FFI_Sarah_PSP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FFI_Sarah_PSP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hammer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kayak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kayak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kraken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kraken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Levistone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Levistone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lukahn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lukahn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Marilith_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Marilith-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matoya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matoya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MysticKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MysticKey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nerrick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nerrick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oxyale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oxyale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RatsTail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RatsTail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rodent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rodent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ruby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ruby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sapphire_class_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sapphire-class-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sarda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sarda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smyth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smyth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tiamat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiamat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="underhill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\underhill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vampire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vampire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vampire2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vampire2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarpCube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WarpCube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="water_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\water-orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="watts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\watts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

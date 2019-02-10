@@ -57,6 +57,9 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.en.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,37 +94,13 @@
     <None Include="Resources\110259369-christmas-snowglobe-vector-sphere-ball-crystal-glass-empty-ball-transparent-background-realistic-ill.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Adamantite.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\air-orb.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\basil.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bottle.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\bridge.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chime.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\crown.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\crystal.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\crystal2.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\crystal-ball-BR7X66.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\earth-orb.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\earth-rod.png" />
@@ -134,12 +113,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FF1_Ruby.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FFI_Nitro_Powder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fire-orb.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\herb.jpg" />
@@ -163,43 +136,10 @@
     <None Include="Resources\key2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Levistone.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Levistone_FFI_Art.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\lute.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MysticKey.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\pirate-ship-vector-clipart.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RatsTail.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Rodent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sapphire-class-1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\slab.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sun.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tnt.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WarpCube.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\water-orb.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dark_Adamantite.png" />
@@ -307,12 +247,6 @@
     <None Include="Resources\lute2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\crystal.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ship.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\light_Adamantite.png" />
   </ItemGroup>
   <ItemGroup>
@@ -418,16 +352,7 @@
     <None Include="Resources\canal.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\vampire.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\garland.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\garland1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Airship.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\blue-gradient.png" />
@@ -439,28 +364,13 @@
     <None Include="Resources\FairyBottle.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\fairy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\unne.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Rodent1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sara.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\FFI_Sarah_PSP.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\black_orb.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\black_orb1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\time.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\time1.jpg" />
@@ -496,34 +406,190 @@
     <None Include="Resources\FFI_PSP_Garland_Map.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\FFI_Elf_Prince_PSP.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Astos-map.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bikke.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Matoya.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\nerrick.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\titan.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\titan1.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\sarda1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lute3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adamantite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Airship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arylon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Astos-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bahamut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bikke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bridge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chaos-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chime2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drawbridge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earth-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fairy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFI_Elf_Prince_PSP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFI_Nitro_Powder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFI_Sarah_PSP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garland.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\giant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hammer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kayak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kraken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levistone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lich.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lukahn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marilith-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matoya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MysticKey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nerrick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oxyale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RatsTail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rodent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ruby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sapphire-class-1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sarda.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\sarda1.png" />
+    <None Include="Resources\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smyth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiamat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underhill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vampire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vampire2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarpCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water-orb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crown.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

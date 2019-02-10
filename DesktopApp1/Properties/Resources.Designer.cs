@@ -63,6 +63,26 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Adamantite {
+            get {
+                object obj = ResourceManager.GetObject("Adamantite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap air_orb {
+            get {
+                object obj = ResourceManager.GetObject("air_orb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Airship {
             get {
                 object obj = ResourceManager.GetObject("Airship", resourceCulture);
@@ -73,9 +93,29 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Astos {
+        internal static System.Drawing.Bitmap Arylon {
             get {
-                object obj = ResourceManager.GetObject("Astos", resourceCulture);
+                object obj = ResourceManager.GetObject("Arylon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Astos_map {
+            get {
+                object obj = ResourceManager.GetObject("Astos_map", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bahamut {
+            get {
+                object obj = ResourceManager.GetObject("bahamut", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,16 +133,6 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bell2 {
-            get {
-                object obj = ResourceManager.GetObject("bell2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Bikke {
             get {
                 object obj = ResourceManager.GetObject("Bikke", resourceCulture);
@@ -113,9 +143,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blue_gradient {
+        internal static System.Drawing.Bitmap black_orb {
             get {
-                object obj = ResourceManager.GetObject("blue_gradient", resourceCulture);
+                object obj = ResourceManager.GetObject("black_orb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +153,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bridge_PNG10 {
+        internal static System.Drawing.Bitmap bottle {
             get {
-                object obj = ResourceManager.GetObject("bridge_PNG10", resourceCulture);
+                object obj = ResourceManager.GetObject("bottle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +163,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bridge2 {
+        internal static System.Drawing.Bitmap bridge {
             get {
-                object obj = ResourceManager.GetObject("bridge2", resourceCulture);
+                object obj = ResourceManager.GetObject("bridge", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +173,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap crown2 {
+        internal static System.Drawing.Bitmap Chaos_map {
             get {
-                object obj = ResourceManager.GetObject("crown2", resourceCulture);
+                object obj = ResourceManager.GetObject("Chaos_map", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +183,69 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap crystal3 {
+        internal static System.Drawing.Bitmap chime {
             get {
-                object obj = ResourceManager.GetObject("crystal3", resourceCulture);
+                object obj = ResourceManager.GetObject("chime", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chime2 {
+            get {
+                object obj = ResourceManager.GetObject("chime2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap crown {
+            get {
+                object obj = ResourceManager.GetObject("crown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap crystal {
+            get {
+                object obj = ResourceManager.GetObject("crystal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap crystal2 {
+            get {
+                object obj = ResourceManager.GetObject("crystal2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drawbridge {
+            get {
+                object obj = ResourceManager.GetObject("drawbridge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap earth_orb {
+            get {
+                object obj = ResourceManager.GetObject("earth_orb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +273,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FFI_PSP_Garland_Map {
+        internal static System.Drawing.Bitmap FFI_Nitro_Powder {
             get {
-                object obj = ResourceManager.GetObject("FFI_PSP_Garland_Map", resourceCulture);
+                object obj = ResourceManager.GetObject("FFI_Nitro_Powder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +293,26 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fire_orb {
+            get {
+                object obj = ResourceManager.GetObject("fire_orb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap garland {
+            get {
+                object obj = ResourceManager.GetObject("garland", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap giant {
             get {
                 object obj = ResourceManager.GetObject("giant", resourceCulture);
@@ -213,9 +323,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_Adamantite {
+        internal static System.Drawing.Bitmap hammer {
             get {
-                object obj = ResourceManager.GetObject("light_Adamantite", resourceCulture);
+                object obj = ResourceManager.GetObject("hammer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +333,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_air_orb {
+        internal static System.Drawing.Bitmap kayak {
             get {
-                object obj = ResourceManager.GetObject("light_air_orb", resourceCulture);
+                object obj = ResourceManager.GetObject("kayak", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +343,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_basil {
+        internal static System.Drawing.Bitmap kraken {
             get {
-                object obj = ResourceManager.GetObject("light_basil", resourceCulture);
+                object obj = ResourceManager.GetObject("kraken", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +353,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_bottle {
+        internal static System.Drawing.Bitmap Levistone {
             get {
-                object obj = ResourceManager.GetObject("light_bottle", resourceCulture);
+                object obj = ResourceManager.GetObject("Levistone", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +363,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_bridge {
+        internal static System.Drawing.Bitmap Lich {
             get {
-                object obj = ResourceManager.GetObject("light_bridge", resourceCulture);
+                object obj = ResourceManager.GetObject("Lich", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +373,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_chime {
+        internal static System.Drawing.Bitmap Lukahn {
             get {
-                object obj = ResourceManager.GetObject("light_chime", resourceCulture);
+                object obj = ResourceManager.GetObject("Lukahn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +383,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_crown {
+        internal static System.Drawing.Bitmap lute {
             get {
-                object obj = ResourceManager.GetObject("light_crown", resourceCulture);
+                object obj = ResourceManager.GetObject("lute", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,209 +393,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_crystal {
+        internal static System.Drawing.Bitmap Marilith_map {
             get {
-                object obj = ResourceManager.GetObject("light_crystal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_earth_orb {
-            get {
-                object obj = ResourceManager.GetObject("light_earth_orb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_earth_rod {
-            get {
-                object obj = ResourceManager.GetObject("light_earth_rod", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_FF1_Oxyale {
-            get {
-                object obj = ResourceManager.GetObject("light_FF1_Oxyale", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_FF1_Ruby {
-            get {
-                object obj = ResourceManager.GetObject("light_FF1_Ruby", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_FFI_Nitro_Powder {
-            get {
-                object obj = ResourceManager.GetObject("light_FFI_Nitro_Powder", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_fire_orb {
-            get {
-                object obj = ResourceManager.GetObject("light_fire_orb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_herb2 {
-            get {
-                object obj = ResourceManager.GetObject("light_herb2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_kayak_grey {
-            get {
-                object obj = ResourceManager.GetObject("light_kayak_grey", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_Levistone {
-            get {
-                object obj = ResourceManager.GetObject("light_Levistone", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_lute {
-            get {
-                object obj = ResourceManager.GetObject("light_lute", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_MysticKey {
-            get {
-                object obj = ResourceManager.GetObject("light_MysticKey", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_RatsTail {
-            get {
-                object obj = ResourceManager.GetObject("light_RatsTail", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_Rodent {
-            get {
-                object obj = ResourceManager.GetObject("light_Rodent", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_ship {
-            get {
-                object obj = ResourceManager.GetObject("light_ship", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_slab {
-            get {
-                object obj = ResourceManager.GetObject("light_slab", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_sun {
-            get {
-                object obj = ResourceManager.GetObject("light_sun", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_tnt {
-            get {
-                object obj = ResourceManager.GetObject("light_tnt", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_WarpCube {
-            get {
-                object obj = ResourceManager.GetObject("light_WarpCube", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap light_water_orb {
-            get {
-                object obj = ResourceManager.GetObject("light_water_orb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap lute2 {
-            get {
-                object obj = ResourceManager.GetObject("lute2", resourceCulture);
+                object obj = ResourceManager.GetObject("Marilith_map", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,9 +413,49 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MysticKey {
+            get {
+                object obj = ResourceManager.GetObject("MysticKey", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nerrick {
             get {
                 object obj = ResourceManager.GetObject("nerrick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oxyale {
+            get {
+                object obj = ResourceManager.GetObject("oxyale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RatsTail {
+            get {
+                object obj = ResourceManager.GetObject("RatsTail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rod {
+            get {
+                object obj = ResourceManager.GetObject("rod", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -523,6 +473,26 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ruby {
+            get {
+                object obj = ResourceManager.GetObject("ruby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sapphire_class_1 {
+            get {
+                object obj = ResourceManager.GetObject("sapphire_class_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sarda {
             get {
                 object obj = ResourceManager.GetObject("sarda", resourceCulture);
@@ -533,9 +503,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sarda1 {
+        internal static System.Drawing.Bitmap ship {
             get {
-                object obj = ResourceManager.GetObject("sarda1", resourceCulture);
+                object obj = ResourceManager.GetObject("ship", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,9 +513,39 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap slab2 {
+        internal static System.Drawing.Bitmap slab {
             get {
-                object obj = ResourceManager.GetObject("slab2", resourceCulture);
+                object obj = ResourceManager.GetObject("slab", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smyth {
+            get {
+                object obj = ResourceManager.GetObject("smyth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sun {
+            get {
+                object obj = ResourceManager.GetObject("sun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tiamat {
+            get {
+                object obj = ResourceManager.GetObject("tiamat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,9 +563,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap titan {
+        internal static System.Drawing.Bitmap tnt {
             get {
-                object obj = ResourceManager.GetObject("titan", resourceCulture);
+                object obj = ResourceManager.GetObject("tnt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -573,9 +573,9 @@ namespace DesktopApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap titan1 {
+        internal static System.Drawing.Bitmap underhill {
             get {
-                object obj = ResourceManager.GetObject("titan1", resourceCulture);
+                object obj = ResourceManager.GetObject("underhill", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -596,6 +596,46 @@ namespace DesktopApp1.Properties {
         internal static System.Drawing.Bitmap vampire {
             get {
                 object obj = ResourceManager.GetObject("vampire", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vampire2 {
+            get {
+                object obj = ResourceManager.GetObject("vampire2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WarpCube {
+            get {
+                object obj = ResourceManager.GetObject("WarpCube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap water_orb {
+            get {
+                object obj = ResourceManager.GetObject("water_orb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap watts {
+            get {
+                object obj = ResourceManager.GetObject("watts", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
