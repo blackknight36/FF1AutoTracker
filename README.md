@@ -3,7 +3,7 @@ Auto tracking application for Final Fantasy 1
 
 This application consists of two parts, a Lua script for FCEUX and an exe file which displays the current game status.
 
-To track your game's progress first run the executable and then load the ff1_tracker.lua script in FCEUX.  Load the screen using the File, New Lua Script Window option.
+To track your game's progress first run the executable and then load the ff1_tracker.lua script in FCEUX.  Load the script using the File, New Lua Script Window option.
 
 <img src="https://github.com/blackknight36/FF1AutoTracker/raw/master/fceu-screenshot.png" title="Lua window">
 
